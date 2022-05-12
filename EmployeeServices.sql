@@ -25,4 +25,4 @@ where name='omkar';
 
 Update empoyee_payrolls1 
 set Gender='F'
-where name='gaurav' or name='Shalini'or name='Arun';
+where name='gaurav' or name='bunty'or name='Arun';
