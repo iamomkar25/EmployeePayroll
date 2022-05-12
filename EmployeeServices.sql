@@ -10,3 +10,7 @@ Insert into empoyee_payrolls1(name,salary,startDate) values
 --UC-4 Retrieve All data--
 
 select * from empoyee_payrolls1;
+
+------ UC 5: Select Query using Cast() an GetDate() -------
+select salary from empoyee_payrolls1 where name='omkar';
+select salary from empoyee_payrolls1 where startDate BETWEEN Cast('2020-12-20' as Date) and GetDate();
